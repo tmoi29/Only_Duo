@@ -6,4 +6,5 @@ Methods we chose to implement:
 - removeLast()
 - peekFirst()
 - peekLast()
-- isEmpty()
+
+We chose to use an arraylist instead of linked nodes.
