@@ -1,17 +1,17 @@
 
-public interface Deque<P>
+public interface Deque<E>
 {
     public void addFirst( E e );
 
     public void addLast( E e );
    
-    public Card removeFirst();
+    public E removeFirst();
 
-    public Card removeLast();
+    public E removeLast();
 
-    public Card peekFirst();
+    public E peekFirst();
 
-    public Card peekLast();
+    public E peekLast();
 
     public boolean isEmpty();
 

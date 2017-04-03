@@ -1,49 +1,49 @@
 import java.util.ArrayList;
 
-public class TheOnlyDuo<T> implements Deque<T>{
+public class TheOnlyDuo<E> implements Deque<E>{
 
     //Instance vars
     private int _size;
-    private ArrayList<T> _deque;
+    private ArrayList<E> _deque;
 
     //Default constructor
     public TheOnlyDuo(){
-	_deque = new ArrayList<T>();
+	_deque = new ArrayList<E>();
 	_size = 0;
     }
 
     //Adds element to front
-    public void addFirst(T x){
+    public void addFirst(E x){
 	_deque.add(0,x);
     }
 
     //Adds element to back
-    public void addLast(T x){
+    public void addLast(E x){
 	_deque.add(_size,x);
     }
 
     //Removes element from front
-    public T removeFirst(){
-	T x = _deque.remove(0);
+    public E removeFirst(){
+	E x = _deque.remove(0);
 	_size--;
 	return x;
     }
 
     //Removes element from back
-    public T removeLast(){
-	T x = _deque.remove(_size-1);
+    public E removeLast(){
+	E x = _deque.remove(_size-1);
 	_size--;
 	return x;
     }
 
     //Returns element at front
-    public T peekFirst(){
+    public E peekFirst(){
         return _deque.get(0);
 
     }
 
     //Returns element at back
-    public T peekLast(){
+    public E peekLast(){
 	return _deque.get(_size-1);
     }
 
