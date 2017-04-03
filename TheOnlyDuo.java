@@ -43,11 +43,7 @@ public class TheOnlyDuo<E> implements Deque<E>{
 	return _deque.get(_deque.size()-1);
     }
 
-    //Returns true/false whether queue is empty or not
-    public boolean isEmpty(){
-	return _deque.get(0) == null;
-    }
-
+    //Returns size of the queue
     public int size(){
 	return _deque.size();
     }

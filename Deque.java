@@ -12,7 +12,4 @@ public interface Deque<E>
     public E peekFirst();
 
     public E peekLast();
-
-    public boolean isEmpty();
-
 }
