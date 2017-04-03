@@ -1,9 +1,9 @@
 
 public interface Deque<P>
 {
-    public void addFirst( P p );
+    public void addFirst( E e );
 
-    public void addLast( P p );
+    public void addLast( E e );
    
     public Card removeFirst();
 
