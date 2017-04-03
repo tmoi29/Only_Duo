@@ -1,13 +1,13 @@
 import java.util.ArrayList;
 
-public class LonelyIslanders<T> implements Deque<T>{
+public class TheOnlyDuo<T> implements Deque<T>{
 
     //Instance vars
     private int _size;
     private ArrayList<T> _deque;
 
     //Default constructor
-    public LonelyIslanders(){
+    public TheOnlyDuo(){
 	_deque = new ArrayList<T>();
 	_size = 0;
     }
