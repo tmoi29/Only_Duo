@@ -1,13 +1,13 @@
 
 public interface Deque<P>
 {
-    public void offerFirst( P p );
+    public void addFirst( P p );
 
-    public void offerLast( P p );
+    public void addLast( P p );
    
-    public Card pollFirst();
+    public Card removeFirst();
 
-    public Card pollLast();
+    public Card removeLast();
 
     public Card peekFirst();
 
