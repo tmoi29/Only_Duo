@@ -1,6 +1,6 @@
 # Only_Duo
-### Brandon Zhang, Jason Lam 
-### Period 5
+##### Brandon Zhang, Jason Lam 
+##### Period 5
 Methods we chose to implement:
 - addFirst(E e)
 - addLast(E e)
