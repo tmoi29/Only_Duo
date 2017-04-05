@@ -48,6 +48,9 @@ public class TheOnlyDuo<E> implements Deque<E>{
 	return _deque.size();
     }
 
+    public String toString(){
+	return _deque.toString();
+    }
 
     //For testing purposes
     public static void main(String[] args){
